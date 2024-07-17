@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Recomendado utilizar esse método para desenvolvimento mais fluido */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Alteração simples no site e cores do mesmo, além de preeenchimento relacionado a tela inteira */
+
+body{
+    background-color: #0D0D0D;
+    color: #F2CA99;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+/* Destaque no texto do portfólio */
+
+.titulo-destaque{
+    color: #734916;
+    font-family: "Krona One", sans-serif;
+}
+
+/* Destaque no desenvolvimento do portfólio */
+
+.paragrafo-destaque{
+    color: #734916;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Conteudo principal relacinado ao site */
+
+.elemento-pai{
+    margin: 10% 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Divisão desses elementos para manipulação  */
+
+.elemento-conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 615px;
+    height: 482px;
+}
+
+/* Modificações no paragrafo */
+
+.elemento-titulo{
+    font-size: 28px;
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+}
+
+.elemento-paragrafo{
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+/* Alteração somente na altura da foto principal */
+
+.Minha-foto{
+    width: 350px;
+    border-radius: 20px;
+    border: solid #A6855D;
+}
+
+/* Separação para a manipulação dos links/botôes */
+
+.apresentacao_links{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 28px;
+}
+
+/* Parte do subtitulo aprensentando os botôes do site. */
+
+.apresentacao_subtitulo_link{
+    font-family: "Krona One", "sans-serif";
+    font-weight: 400;
+}
+
+/* Parte voltada inteiramente aos botôes dentro do site */
+
+/* Foi adicionado um displey flex para que os elementos dentro do botão seja alinhado com o texto */
+
+.apresentacao_links_sociais{
+    /* background-color: #03041b; */
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    width: 400px;
+    text-align: center;
+    color: #F2CA99;
+    border-radius: 16px;
+    border: solid #734916 2px;
+    font-size: 24px;
+    padding: 21px 0;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+/* Ajuste nas imagems para caberem dentro do site e combinar com a altura dos textos */
+
+.imagem_logo{
+    width: 30px;
+    height: 27px;
+}
